@@ -6,9 +6,14 @@ This project was originally cloned from the localGPT_llama2 project from Prompt 
 2. Test ingesting a very large open source document [TMHP Provider Procedure Manual](https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2023-08-TMPPM_0.pdf).
 3. Provide a useful free tool for providers to be able to understand regulations as they pertain to providers
 
-# differences in installation wrt originl localGPT project
+# Differences in installation wrt original localGPT project
 1. Was not able to compile a Llama2 wheel locally, so used [precompiled wheel](https://github.com/abetlen/llama-cpp-python/releases).  The version of the wheel used is included in the llama2_preCompiled_Wheels folder.
 2. Was necessary to comment out the reference to Llama2 in requirements.txt file
+
+# Sample Output
+![LocalGPT Query Response](image.png)
+![Wheel compile failure](image-1.png)
+
 
 # localGPT
 
