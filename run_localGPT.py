@@ -49,7 +49,7 @@ def load_model(device_type, model_id, model_basename=None):
         if ".ggml" in model_basename:
             logging.info("Using Llamacpp for GGML quantized models")
             model_path = hf_hub_download(repo_id=model_id, filename=model_basename)
-            max_ctx_size = 2048
+            max_ctx_size = 4096
             kwargs = {
                 "model_path": model_path,
                 "n_ctx": max_ctx_size,

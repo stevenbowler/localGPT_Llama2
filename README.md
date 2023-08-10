@@ -1,3 +1,14 @@
+# This project was originally cloned from the localGPT_llama2 project from Prompt Engineer based on this [Youtube video](https://www.youtube.com/watch?v=lbFmceo4D5E&t=1113s).
+
+# The project has three purposes:
+1. Run Llama2 7B on an older version laptop
+2. Test ingesting a very large open source document [TMHP Provider Procedure Manual](https://www.tmhp.com/sites/default/files/file-library/resources/provider-manuals/tmppm/archives/2023-08-TMPPM_0.pdf).
+3. Provide a useful free tool for providers to be able to understand regulations as they pertain to providers
+
+# differences in installation wrt originl localGPT project
+Was not able to compile a Llama2 wheel locally, so used [precompiled wheel](https://github.com/abetlen/llama-cpp-python/releases).  The version of the wheel used is included in the llama2_preCompiled_Wheels folder.
+
+
 # localGPT
 
 This project was inspired by the original [privateGPT](https://github.com/imartinez/privateGPT). Most of the description here is inspired by the original privateGPT.
