@@ -1,4 +1,5 @@
-# This project was originally cloned from the localGPT_llama2 project from Prompt Engineer based on this [Youtube video](https://www.youtube.com/watch?v=lbFmceo4D5E&t=1113s).
+# LocalGPT_Llama2
+This project was originally cloned from the localGPT_llama2 project from Prompt Engineer based on this [Youtube video](https://www.youtube.com/watch?v=lbFmceo4D5E&t=1113s).
 
 # The project has three purposes:
 1. Run Llama2 7B on an older version laptop
