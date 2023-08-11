@@ -11,7 +11,7 @@ This project was originally cloned from the localGPT_llama2 project from Prompt 
 2. Was necessary to comment out the reference to Llama2 in requirements.txt file
 
 # Sample Output
-![LocalGPT Query Response](image.png)
+![LocalGPT Query Response](\assets\LlamaWheelError.png)
 ![Wheel compile failure](image-1.png)
 
 
